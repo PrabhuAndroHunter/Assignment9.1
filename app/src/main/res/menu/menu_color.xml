@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/colors"
+        android:orderInCategory="1"
+        android:title="TEXT COLOR"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/red"
+        android:orderInCategory="2"
+        android:title="Red"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/green"
+        android:orderInCategory="3"
+        android:title="Green"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/blue"
+        android:orderInCategory="4"
+        android:title="Blue"
+        app:showAsAction="ifRoom" />
+
+</menu>
